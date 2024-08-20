@@ -217,14 +217,11 @@ body {
         font-family: 'Roboto', sans-serif; 
         font-weight: 700;
         font-size: 23px;
-        color: #333;
         letter-spacing: 0.1em;
-        text-transform: uppercase; 
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         background: linear-gradient(45deg, #08012a, #1abaded6);
         -webkit-background-clip: text;
         color: transparent;
-        transform: rotate(-5deg);
     }
 
     .logonav2 {
@@ -233,9 +230,7 @@ body {
         font-family: 'Roboto', sans-serif; 
         font-weight: 700;
         font-size: 15px;
-        color: #333;
         letter-spacing: 0.1em;
-        text-transform: uppercase; 
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         background: linear-gradient(45deg, #08012a, #1abaded6);
         -webkit-background-clip: text;
