@@ -88,9 +88,3 @@ document.addEventListener("DOMContentLoaded", function() {
   // Call the function initially to check if any sections are already visible
   showSection();
 });
-
-  
-
-  
-  
-  

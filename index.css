@@ -149,8 +149,9 @@ body {
         transition: transform 0.4s;
         z-index: 999;
         overflow-y: auto;
+
     }
-    
+        
     .nav-item {
         margin: 10px 0;
         font-size: 50px;
@@ -668,7 +669,7 @@ body {
 }
 
 .sectionBG {
-    background-image: url('./Image/IMG_4587.jpg');
+    background-image: url('./Image/IMG_5408.jpg');
     background-size: cover
     ;
 } 
