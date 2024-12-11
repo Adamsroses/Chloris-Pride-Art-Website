@@ -32,37 +32,37 @@ function toggleMenu() {
   navbarToggle.classList.toggle("exit");
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    const slides = document.querySelectorAll('.slide');
+// document.addEventListener("DOMContentLoaded", function() {
+//   const slides = document.querySelectorAll('.slide');
+
+//   function shuffleSlides() {
+//     const parent = slides[0].parentNode;
+//     for (let i = slides.length - 1; i > 0; i--) {
+//       const j = Math.floor(Math.random() * (i + 1));
+//       parent.insertBefore(slides[j], slides[i]);
+//     }
+//   }
+
+//   function showSlide(index) {
+//     slides.forEach((slide, i) => {
+//       if (i === index) {
+//         slide.classList.add('active');
+//       } else {
+//         slide.classList.remove('active');
+//       }
+//     });
+//   }
   
-    function shuffleSlides() {
-      const parent = slides[0].parentNode;
-      for (let i = slides.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        parent.insertBefore(slides[j], slides[i]);
-      }
-    }
-  
-    function showSlide(index) {
-      slides.forEach((slide, i) => {
-        if (i === index) {
-          slide.classList.add('active');
-        } else {
-          slide.classList.remove('active');
-        }
-      });
-    }
-  
-    shuffleSlides(); // Shuffle the slides initially
-  
-    let currentSlide = 0;
-    showSlide(currentSlide);
-  
-    setInterval(() => {
-      currentSlide = (currentSlide + 1) % slides.length;
-      showSlide(currentSlide);
-    }, 3000);
-});
+//   shuffleSlides(); // Shuffle the slides initially
+
+//   let currentSlide = 0;
+//   showSlide(currentSlide);
+
+//   setInterval(() => {
+//     currentSlide = (currentSlide + 1) % slides.length;
+//     showSlide(currentSlide);
+//   }, 3000);
+// });
 
 document.addEventListener("DOMContentLoaded", function() {
   const hiddenSections = document.querySelectorAll('.hidden-section');
