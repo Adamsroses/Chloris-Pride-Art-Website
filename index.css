@@ -415,6 +415,11 @@ body {
     .content {
         padding-bottom: 100px;
     }
+
+    body .sectionBG {
+        background-image: url('./Image/IMG_5408.jpg');
+        background-size: cover;
+    }
     
     .sectionBG2 #sectionBG2p {
         font-size: 25px; 
