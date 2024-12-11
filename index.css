@@ -500,7 +500,7 @@ body {
 } */
   
 .slide {
-    width: 100vw; /* Full viewport width */
+    width: 100%; /* Full viewport width */
     height: 600px;
     object-fit: cover;
     /* position: absolute;
@@ -678,8 +678,8 @@ body {
 }
 
 .sectionBG {
-    /* background-image: url('./Image/Homepage/IMG_4603.jpg'); */
-    background-color: #333;
+    background-image: url('./Image/Homepage/IMG_4603.jpg?v=1');
+    /* background-color: #333; */
     background-size: cover;
 } 
 
