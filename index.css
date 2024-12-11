@@ -669,9 +669,8 @@ body {
 }
 
 .sectionBG {
-    background-color: #08012a;
-    /* background-image: url('./Image/IMG_5408.jpg');
-    background-size: cover; */
+    background-image: url('./Image/IMG_5408.jpg');
+    background-size: cover;
 } 
 
 .sectionBG2 {
