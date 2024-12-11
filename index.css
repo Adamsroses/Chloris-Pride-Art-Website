@@ -113,6 +113,13 @@ body {
     color: black;
 }
 /* Add your responsive styles here */
+
+/* @media only screen and (max-width: 768px) {
+    .mobile-responsive {
+      content: url('./Image/IMG_28513.jpg');
+    }
+} */
+  
 @media screen and (max-width: 768px) {
     /* Styles for screens up to 768px wide */
     body {
@@ -416,7 +423,7 @@ body {
     }
 
     body .sectionBG {
-        background-image: url('./Image/IMG_2851\ 4.jpg');
+        background-image: url('./Image/dark 3.jpg');
         background-size: cover;
     }
     
