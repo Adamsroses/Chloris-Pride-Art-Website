@@ -678,8 +678,7 @@ body {
 }
 
 .sectionBG {
-    background-color: black;
-    background-size: cover;
+    
 } 
 
 .sectionBG2 {
@@ -694,6 +693,7 @@ body {
     color: white;
 }
 
+
 .formDiv {
     width: 537px;
     border-radius: 5px;
@@ -706,6 +706,7 @@ body {
 
 h2 {
     text-align: center;
+    
 }
   
 .form-group {
