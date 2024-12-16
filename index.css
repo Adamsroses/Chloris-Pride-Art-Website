@@ -249,10 +249,8 @@ body {
         margin-right: 50px;
     }
 
-    .mobile-responsive {
+    .mobile-responsiveness {
         content: url('./Image/IMG_28513.jpg');
-        width: 100vw;
-        height: 100vh;
     }
       
     section div .slide {
@@ -678,7 +676,8 @@ body {
 }
 
 .sectionBG {
-    
+    background-color: black;
+    background-size: cover;
 } 
 
 .sectionBG2 {
